@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-_sh = logging.StreamHandler()
+_sh = logging.FileHandler(filename='logs.log')
 _fmt = logging.Formatter(fmt='[%(from_start)3ss] %(message)s')
 _filter = FromStartFilter(start_time=started_at)
 
