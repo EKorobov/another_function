@@ -1,0 +1,2 @@
+curl -i --header "Accept: application/json" "https://anotherfunction.table.core.windows.net/$1?sv=2017-04-17&ss=bfqt&srt=sco&sp=rwdlacup&se=2017-11-28T16:13:46Z&st=2017-11-28T08:13:46Z&spr=https&sig=scZKSdmmYRJVd9hQtt6R9JO9n%2F4nnftyAjuwZnCev0s%3D" && echo
+curl -i "https://anotherfunction.table.core.windows.net/$1?sv=2017-04-17&ss=bfqt&srt=sco&sp=rwdlacup&se=2017-11-28T16:13:46Z&st=2017-11-28T08:13:46Z&spr=https&sig=scZKSdmmYRJVd9hQtt6R9JO9n%2F4nnftyAjuwZnCev0s%3D" && echo
