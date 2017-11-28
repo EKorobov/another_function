@@ -5,12 +5,11 @@
       "type": "httpTrigger",
       "direction": "in",
       "authLevel": "anonymous",
-      "methods": ["get"],
-      "route": "second/{id:int}"
+      "methods": ["get", "post"]
     },
     {
       "name": "res",
-      "type": "https",
+      "type": "http",
       "direction": "out"
     }
   ],
